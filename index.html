@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#050505">
+<meta name="description" content="Digital playbill for The Rock Orchestra, 2026 Fall Tour, by The Great Unmasking.">
+<title>The Rock Orchestra | Playbill</title>
+<style>
+  :root {
+    --black: #050505;
+    --ink: #121110;
+    --gold: #c9a24b;
+    --gold-soft: #8f7433;
+    --white: #f6f2e8;
+    --muted: #b9b2a2;
+    --font: Georgia, "Times New Roman", Times, serif;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    padding: env(safe-area-inset-top, 0) env(safe-area-inset-right, 0) env(safe-area-inset-bottom, 0) env(safe-area-inset-left, 0);
+    background: var(--black);
+    background-image: radial-gradient(ellipse 120% 60% at 50% 0%, rgba(201, 162, 75, 0.22), rgba(5, 5, 5, 0) 70%);
+    background-repeat: no-repeat;
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+
+  .page {
+    max-width: 34rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.1rem 3rem;
+  }
+
+  /* Header: the one bold moment */
+  .masthead {
+    text-align: center;
+    padding: 2.75rem 1.25rem 2.5rem;
+    border: 1px solid var(--gold);
+    outline: 1px solid var(--gold-soft);
+    outline-offset: 5px;
+    margin: 0.5rem 0.4rem 0;
+  }
+
+  .company {
+    margin: 0 0 0.25rem;
+    font-style: italic;
+    color: var(--muted);
+    font-size: 1.15rem;
+    letter-spacing: 0.03em;
+  }
+
+  .title {
+    margin: 0 0 1.25rem;
+    font-weight: 400;
+    font-size: clamp(2.6rem, 14vw, 4.2rem);
+    line-height: 1.02;
+    letter-spacing: 0.01em;
+    color: var(--gold);
+    text-wrap: balance;
+  }
+
+  .rule {
+    display: block;
+    width: 5rem;
+    height: 1px;
+    margin: 0 auto 1.1rem;
+    background: var(--gold);
+  }
+
+  .dates {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--white);
+  }
+
+  section { margin-top: 3rem; }
+
+  h2 {
+    margin: 0 0 1.1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    color: var(--gold);
+    text-align: center;
+  }
+
+  h2::after {
+    content: "";
+    display: block;
+    width: 2.5rem;
+    height: 1px;
+    margin: 0.7rem auto 0;
+    background: var(--gold-soft);
+  }
+
+  /* Director's note */
+  .note p {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--white);
+  }
+
+  /* Cast and crew lists */
+  .roll {
+    margin: 0;
+    padding: 0;
+  }
+
+  .roll div {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    min-height: 3rem;
+    padding: 0.6rem 0.15rem;
+    border-bottom: 1px solid rgba(201, 162, 75, 0.18);
+  }
+
+  .roll div:last-child { border-bottom: 0; }
+
+  .roll dt {
+    flex: 1 1 auto;
+    min-width: 0;
+    margin: 0;
+    color: var(--white);
+    font-size: 1.1rem;
+  }
+
+  .roll dd {
+    flex: 0 1 52%;
+    margin: 0;
+    text-align: right;
+    color: var(--gold);
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  @media (min-width: 40rem) {
+    .page { padding-top: 2.5rem; }
+    body { font-size: 1.125rem; }
+  }
+</style>
+</head>
+<body>
+  <main class="page">
+
+    <header class="masthead">
+      <h1 class="title">The Rock Orchestra</h1>
+      <span class="rule" aria-hidden="true"></span>
+      <p class="company">The Great Unmasking</p>
+      <p class="dates">2026 Fall Tour</p>
+    </header>
+
+    <section class="note" aria-label="Director's note">
+      <p>Find out who we are below&hellip;</p>
+    </section>
+
+    <section aria-labelledby="performers-heading">
+      <h2 id="performers-heading">Performers</h2>
+      <dl class="roll">
+        <div><dt>Alexa Ray</dt><dd>Vocalist</dd></div>
+        <div><dt>Gerard Canonico</dt><dd>Vocalist</dd></div>
+        <div><dt>Tiffany Weiss</dt><dd>1st Violin</dd></div>
+        <div><dt>Ally Jenkins</dt><dd>2nd Violin</dd></div>
+        <div><dt>Matt Pickart</dt><dd>Viola</dd></div>
+        <div><dt>Samuel Quiggins</dt><dd>Cello</dd></div>
+        <div><dt>Brent Edmonson</dt><dd>Bass</dd></div>
+        <div><dt>Daniel Wright</dt><dd>1st Trumpet / Music Director</dd></div>
+        <div><dt>Jimmy Boyle</dt><dd>2nd Trumpet</dd></div>
+        <div><dt>Robert Christian</dt><dd>Flute / Saxophone / Piccolo</dd></div>
+        <div><dt>Josh Holcomb</dt><dd>Trombone</dd></div>
+        <div><dt>Sal Tommassello</dt><dd>Drums</dd></div>
+        <div><dt>Joshua Azenberg</dt><dd>Percussion</dd></div>
+      </dl>
+    </section>
+
+    <section aria-labelledby="crew-heading">
+      <h2 id="crew-heading">Crew</h2>
+      <dl class="roll">
+        <div><dt>Tomi Hargreaves</dt><dd>Sound</dd></div>
+        <div><dt>Amber Rhodes</dt><dd>Sound</dd></div>
+        <div><dt>Diego Durso</dt><dd>Sound</dd></div>
+        <div><dt>Joshua Rook</dt><dd>Lights</dd></div>
+        <div><dt>Lauren</dt><dd>Lights</dd></div>
+        <div><dt>Bella</dt><dd>Stage Manager</dd></div>
+        <div><dt>Josh Bright</dt><dd>Playback</dd></div>
+        <div><dt>Noel</dt><dd>Saint 1</dd></div>
+        <div><dt>Stef Flynn</dt><dd>Saint 2</dd></div>
+        <div><dt>Rey</dt><dd>Tour Manager</dd></div>
+        <div><dt>Matt Haylett</dt><dd>Big Daddy</dd></div>
+      </dl>
+    </section>
+
+  </main>
+</body>
+</html>
