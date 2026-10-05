@@ -1,0 +1,33 @@
+---
+layout: default
+title: The Rock Orchestra
+---
+{% assign p = site.data.playbill %}
+    <header class="masthead">
+      <h1 class="title">{{ p.title }}</h1>
+      <span class="rule" aria-hidden="true"></span>
+      <p class="company">{{ p.company }}</p>
+      <p class="dates">{{ p.tour }}</p>
+    </header>
+
+    <section class="note" aria-label="Director's note">
+      <p>{{ p.note }}</p>
+    </section>
+
+    <section aria-labelledby="performers-heading">
+      <h2 id="performers-heading">Performers</h2>
+      <dl class="roll">
+        {% for person in p.performers -%}
+        <div><dt>{{ person.name }}</dt><dd>{{ person.role }}</dd></div>
+        {% endfor -%}
+      </dl>
+    </section>
+
+    <section aria-labelledby="crew-heading">
+      <h2 id="crew-heading">Crew</h2>
+      <dl class="roll">
+        {% for person in p.crew -%}
+        <div><dt>{{ person.name }}</dt><dd>{{ person.role }}</dd></div>
+        {% endfor -%}
+      </dl>
+    </section>
