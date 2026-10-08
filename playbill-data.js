@@ -45,7 +45,7 @@ window.PLAYBILL = {
       people: [
       { name: "Bella Luminiarek", role: "Stage Manager", instagram: "@officialbellaluminiarek" },
       { name: "Rey Hill", role: "Tour Manager", instagram: "@reybrhill" },
-      { name: "Noël Long", role: "Assitant Tour Manager / Wardrobe", instagram: "@gigglegoth" },
+      { name: "Noël Long", role: "Assistant Tour Manager / Wardrobe", instagram: "@gigglegoth" },
       { name: "Matt Haylett", role: "USA Production Manager / Global Designer", instagram: "@matthaylett1" },
       { name: "Stef Flynn", role: "Production Assistant / Merch", instagram: "@stefffly" },
       { name: "Tomi Hargreaves", role: "FOH Audio Engineer", instagram: "@tomi.hargreaves" },
