@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#050505">
+<meta name="description" content="Digital playbill for The Rock Orchestra, 2026 Fall Tour, by The Great Unmasking.">
+<title>The Rock Orchestra | Playbill</title>
+<style>
+  :root {
+    --black: #050505;
+    --ink: #121110;
+    --gold: #c9a24b;
+    --gold-soft: #8f7433;
+    --white: #f6f2e8;
+    --muted: #b9b2a2;
+    --font: Georgia, "Times New Roman", Times, serif;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    padding: env(safe-area-inset-top, 0) env(safe-area-inset-right, 0) env(safe-area-inset-bottom, 0) env(safe-area-inset-left, 0);
+    background: var(--black);
+    background-image: radial-gradient(ellipse 120% 60% at 50% 0%, rgba(201, 162, 75, 0.22), rgba(5, 5, 5, 0) 70%);
+    background-repeat: no-repeat;
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+
+  .page {
+    max-width: 34rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.1rem 3rem;
+  }
+
+  /* Header: the one bold moment */
+  .masthead {
+    text-align: center;
+    padding: 2.75rem 1.25rem 2.5rem;
+    border: 1px solid var(--gold);
+    outline: 1px solid var(--gold-soft);
+    outline-offset: 5px;
+    margin: 0.5rem 0.4rem 0;
+  }
+
+  .company {
+    margin: 0 0 0.25rem;
+    font-style: italic;
+    color: var(--muted);
+    font-size: 1.15rem;
+    letter-spacing: 0.03em;
+  }
+
+  .title {
+    margin: 0 0 1.25rem;
+    font-weight: 400;
+    font-size: clamp(2.6rem, 14vw, 4.2rem);
+    line-height: 1.02;
+    letter-spacing: 0.01em;
+    color: var(--gold);
+    text-wrap: balance;
+  }
+
+  .rule {
+    display: block;
+    width: 5rem;
+    height: 1px;
+    margin: 0 auto 1.1rem;
+    background: var(--gold);
+  }
+
+  .dates {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--white);
+  }
+
+  section { margin-top: 3rem; }
+
+  h2 {
+    margin: 0 0 1.1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    color: var(--gold);
+    text-align: center;
+  }
+
+  h2::after {
+    content: "";
+    display: block;
+    width: 2.5rem;
+    height: 1px;
+    margin: 0.7rem auto 0;
+    background: var(--gold-soft);
+  }
+
+  /* Director's note */
+  .note p {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--white);
+  }
+
+  /* Cast and crew lists */
+  .roll {
+    margin: 0;
+    padding: 0;
+  }
+
+  .roll div {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    min-height: 3rem;
+    padding: 0.55rem 0.15rem 0.35rem;
+    border-bottom: 1px solid rgba(201, 162, 75, 0.18);
+  }
+
+  .roll div:last-child { border-bottom: 0; }
+
+  .roll dt {
+    flex: 1 1 auto;
+    min-width: 0;
+    margin: 0;
+    color: var(--white);
+    font-size: 1.1rem;
+  }
+
+  .roll .ig {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    padding: 0.35rem 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+    text-decoration: underline;
+    text-decoration-color: var(--gold-soft);
+    text-underline-offset: 0.2em;
+  }
+
+  .roll .ig:hover,
+  .roll .ig:focus-visible { color: var(--gold); }
+
+  .roll .ig:focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 2px;
+  }
+
+  .roll dd {
+    flex: 0 1 52%;
+    margin: 0;
+    text-align: right;
+    color: var(--gold);
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  @media (min-width: 40rem) {
+    .page { padding-top: 2.5rem; }
+    body { font-size: 1.125rem; }
+  }
+</style>
+</head>
+<body>
+  <main class="page" id="playbill">
+    <noscript><p class="note-fallback">Please turn on JavaScript to view the playbill.</p></noscript>
+  </main>
+
+  <script src="playbill-data.js"></script>
+  <script>
+  (function () {
+    var d = window.PLAYBILL;
+    var root = document.getElementById('playbill');
+    if (!d || !root) {
+      root.textContent = 'Playbill data could not be loaded.';
+      return;
+    }
+
+    function el(tag, cls, text) {
+      var e = document.createElement(tag);
+      if (cls) e.className = cls;
+      if (text != null) e.textContent = text;
+      return e;
+    }
+
+    function igHandle(v) { return String(v).trim().replace(/^@/, ''); }
+
+    function safeUrl(u) { return /^https?:\/\//i.test(u) ? u : null; }
+
+    root.textContent = '';
+    if (d.title) document.title = d.title + ' | Playbill';
+
+    var header = el('header', 'masthead');
+    header.appendChild(el('h1', 'title', d.title));
+    var rule = el('span', 'rule');
+    rule.setAttribute('aria-hidden', 'true');
+    header.appendChild(rule);
+    if (d.company) header.appendChild(el('p', 'company', d.company));
+    if (d.tour) header.appendChild(el('p', 'dates', d.tour));
+    root.appendChild(header);
+
+    if (d.note) {
+      var note = el('section', 'note');
+      note.setAttribute('aria-label', "Director's note");
+      note.appendChild(el('p', null, d.note));
+      root.appendChild(note);
+    }
+
+    (d.sections || []).forEach(function (sec, i) {
+      var section = el('section');
+      var hid = 'section-' + i;
+      section.setAttribute('aria-labelledby', hid);
+      var h2 = el('h2', null, sec.heading);
+      h2.id = hid;
+      section.appendChild(h2);
+
+      var dl = el('dl', 'roll');
+      (sec.people || []).forEach(function (p) {
+        var row = document.createElement('div');
+        var dt = document.createElement('dt');
+        dt.appendChild(document.createTextNode(p.name));
+
+        if (p.instagram) {
+          var h = igHandle(p.instagram);
+          var href = safeUrl(p.url) || 'https://www.instagram.com/' + encodeURIComponent(h) + '/';
+          var a = el('a', 'ig', '@' + h);
+          a.href = href;
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+          dt.appendChild(a);
+        }
+
+        var dd = el('dd', null, p.role || '');
+        row.appendChild(dt);
+        row.appendChild(dd);
+        dl.appendChild(row);
+      });
+      section.appendChild(dl);
+      root.appendChild(section);
+    });
+  })();
+  </script>
+</body>
+</html>
