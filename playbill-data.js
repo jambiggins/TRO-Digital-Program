@@ -44,16 +44,16 @@ window.PLAYBILL = {
       heading: "Crew",
       people: [
       { name: "Bella Luminiarek", role: "Stage Manager", instagram: "@officialbellaluminiarek" },
-      { name: "Rey", role: "Tour Manager", instagram: "@reybrhill" },
-      { name: "Noël Long", role: "Saint 1", instagram: "@gigglegoth" },
-      { name: "Matt Haylett", role: "Big Daddy", instagram: "@matthaylett1" },
-      { name: "Stef Flynn", role: "Saint 2", instagram: "@stefffly" },
-      { name: "Tomi Hargreaves", role: "Sound", instagram: "@tomi.hargreaves" },
-      { name: "Diego Durso", role: "Sound", instagram: "@diegodurso" },
-      { name: "Amber Rhodes", role: "Sound", instagram: "@amrhodes" },
-      { name: "Josh Bright", role: "Playback", instagram: "@joshbrighttm", url: "https://www.instagram.com/joshbrightm/?hl=en" },
-      { name: "Joshua Rook", role: "Lights", instagram: "@jay_rook" },
-      { name: "Lauren Schorr", role: "Lights", instagram: "@_chaoskid_" },
+      { name: "Rey Hill", role: "Tour Manager", instagram: "@reybrhill" },
+      { name: "Noël Long", role: "Assitant Tour Manager / Wardrobe", instagram: "@gigglegoth" },
+      { name: "Matt Haylett", role: "USA Production Manager / Global Designer", instagram: "@matthaylett1" },
+      { name: "Stef Flynn", role: "Production Assistant / Merch", instagram: "@stefffly" },
+      { name: "Tomi Hargreaves", role: "FOH Audio Engineer", instagram: "@tomi.hargreaves" },
+      { name: "Diego Durso", role: "Audio Monitor Engineer", instagram: "@diegodurso" },
+      { name: "Amber Rhodes", role: "Stage Audio", instagram: "@amrhodes" },
+      { name: "Josh Bright", role: "Playback / Backline Tech", instagram: "@joshbrighttm", url: "https://www.instagram.com/joshbrightm/?hl=en" },
+      { name: "Joshua Rook", role: "Co Lighting Designer / Chief LX", instagram: "@jay_rook" },
+      { name: "Lauren Schorr", role: "2nd LX", instagram: "@_chaoskid_" },
       ]
     }
   ]
