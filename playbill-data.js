@@ -54,7 +54,7 @@ window.PLAYBILL = {
       { name: "Tomi Hargreaves", role: "Sound", instagram: "@tomi.hargreaves" },
       { name: "Diego D'Urso", role: "Sound", instagram: "@diegodurso" },
       { name: "Amber Rhodes", role: "Sound", instagram: "@amrhodes" },
-      { name: "Josh Bright", role: "Playback", instagram: "@joshbrighttm", url: "https://www.instagram.com/joshbrightm/?hl=en" },
+      { name: "Josh Bright", role: "Playback", instagram: "@joshbrightm", url: "https://www.instagram.com/joshbrightm/?hl=en" },
       { name: "Joshua Rook", role: "Lights", instagram: "@jay_rook" },
       { name: "Lauren Schorr", role: "Lights", instagram: "@_chaoskid_" },
       ]
