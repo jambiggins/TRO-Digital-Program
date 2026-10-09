@@ -28,8 +28,7 @@ window.PLAYBILL = {
       people: [
       { name: "Alexa Ray", role: "Vocalist", instagram: "@alexarayofficial" },
       { name: "Gerard Canonico", role: "Vocalist", instagram: "@gerardcanonicoofficial" },
-      { name: "Zazz", role: "Vocalist", instagram: "@zazzsings" },
-      { name: "Dan Murphy", role: "Vocalist", instagram: "@alldanthings" },
+      { name: "Willow Dougherty", role: "Vocalist", instagram: "@willow.doc" },
       { name: "Tiffany Weiss", role: "Lead Violin", instagram: "@tiffstringz" },
       { name: "Ally Jenkins", role: "Violin", instagram: "@violinrose" },
       { name: "Matt Pickart", role: "Viola", instagram: "@mattpickart" },
