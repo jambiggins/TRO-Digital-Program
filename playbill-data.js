@@ -32,7 +32,7 @@ window.PLAYBILL = {
       { name: "Addie Nicole", role: "Vocalist", instagram: "@addisynofficial" },
       { name: "Alexa Ray", role: "Vocalist", instagram: "@alexarayofficial" },
       { name: "Calli Graver", role: "Chorus", instagram: "@calligraver" },
-      { name: "Shafiq Hicks", role: "Chorus", instagram: "@shafiqlamarr" },
+      { name: "Shafiq Lamar Hicks", role: "Chorus", instagram: "@shafiqlamarr" },
       { name: "Kaitlyn Myers", role: "Chorus", instagram: "@k.n.myers" },
       { name: "Monty Pierce", role: "Chorus", instagram: "@monty.posts" },
       { name: "Ivana Cetkovic", role: "Lead Violin / Music Director", instagram: "@ivanacetkovic_music" },
@@ -53,7 +53,7 @@ window.PLAYBILL = {
       people: [
       { name: "Emme Hayward", role: "Fuel Girl", instagram: "@misslottylou" },
       { name: "Kat Stainton", role: "Fuel Girl", instagram: "@katiaperformer" },
-      { name: "Penny Valnet", role: "Fuel Girl", instagram: "@pennyvalent" },
+      { name: "Penny Valent", role: "Fuel Girl", instagram: "@pennyvalent" },
       { name: "Sedona Wild", role: "Fuel Girl", instagram: "@sedonawild_" },
       { name: "Naomi French", role: "Fuel Girls Creative Director", instagram: "@naomiflamingfrench" },
       { name: "Tiana Powell", role: "Fuel Girls Stage Manager", instagram: "@tianapowww" },
