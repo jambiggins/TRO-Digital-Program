@@ -49,14 +49,14 @@ window.PLAYBILL = {
       ]
     },
     {
-      heading: "Fire Performers / Crew",
+      heading: "Fuel Girls / Pyro Crew",
       people: [
-      { name: "Emme Hayward", role: "Fire Performer", instagram: "@misslottylou" },
-      { name: "Katia Stainton", role: "Fire Performer", instagram: "@katiaperformer" },
-      { name: "Penny Valnet", role: "Fire Performer", instagram: "@pennyvalent" },
-      { name: "Sedona Wild", role: "Fire Performer", instagram: "@sedonawild_" },
-      { name: "Naomi French", role: "Fire Dancers Creative Director", instagram: "@naomiflamingfrench" },
-      { name: "Tiana Powell", role: "Fire Dancers Stage Manager", instagram: "@tianapowww" },
+      { name: "Emme Hayward", role: "Fuel Girl", instagram: "@misslottylou" },
+      { name: "Kat Stainton", role: "Fuel Girl", instagram: "@katiaperformer" },
+      { name: "Penny Valnet", role: "Fuel Girl", instagram: "@pennyvalent" },
+      { name: "Sedona Wild", role: "Fuel Girl", instagram: "@sedonawild_" },
+      { name: "Naomi French", role: "Fuel Girls Creative Director", instagram: "@naomiflamingfrench" },
+      { name: "Tiana Powell", role: "Fuel Girls Stage Manager", instagram: "@tianapowww" },
       { name: "George Baker", role: "Pyro Supervisor/Chief", instagram: "@baker29george" },
       { name: "Jon Lambe", role: "Pyro Stage Manager", instagram: "@iamjonlambe" },
       { name: "Ian Noble", role: "Pyro Tech", instagram: "@____iannoble____" },
