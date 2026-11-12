@@ -27,7 +27,6 @@ window.PLAYBILL = {
       heading: "Performers",
       people: [
       { name: "Gerard Canonico", role: "Vocalist", instagram: "@gerardcanonicoofficial" },
-      { name: "Geena Fontanella", role: "Vocalist", instagram: "@geenafontanella" },
       { name: "Nathan James", role: "Vocalist", instagram: "@thenathanjames" },
       { name: "Addie Nicole", role: "Vocalist", instagram: "@addisynofficial" },
       { name: "Alexa Ray", role: "Vocalist", instagram: "@alexarayofficial" },
@@ -80,8 +79,8 @@ window.PLAYBILL = {
       { name: "Diego D'Urso", role: "Audio Monitor Engineer", instagram: "@diegodurso" },
       { name: "Amber Rhodes", role: "Stage Audio", instagram: "@amrhodes" },
       { name: "Josh Bright", role: "Playback / Backline Tech", instagram: "@joshbrightm", url: "https://www.instagram.com/joshbrightm/?hl=en" },
-      { name: "Jacob Waynick", role: "Audio Tech/Chief", instagram: "@jakewaynick" },
-      { name: "Connor Cross", role: "Audio Tech", instagram: "@Connor Cross" },
+      { name: "Jake Waynick", role: "Audio Tech/Chief", instagram: "@jakewaynick" },
+      { name: "Connor Cross", role: "Audio Tech", instagram: "@connocro" },
       { name: "Neka Zang", role: "Choreographer", instagram: "@nekazang" },
       { name: "Adam Goldsmith", role: "Assistant Musical Creative Director", instagram: "@theadamgoldsmith" },
       { name: "Quinlyn Tosh", role: "Media / Photography", instagram: "@quinlynlive" },
