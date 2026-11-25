@@ -27,7 +27,7 @@ window.PLAYBILL = {
       heading: "Performers",
       people: [
       { name: "Gerard Canonico", role: "Vocalist", instagram: "@gerardcanonicoofficial" },
-      { name: "Geena Fontanella", role: "Vocalist", instagram: "@geenafontanella" },
+      { name: "Willow Dougherty", role: "Vocalist", instagram: "@willow.doc" },
       { name: "Nathan James", role: "Vocalist", instagram: "@thenathanjames" },
       { name: "Addie Nicole", role: "Vocalist", instagram: "@addisynofficial" },
       { name: "Alexa Ray", role: "Vocalist", instagram: "@alexarayofficial" },
